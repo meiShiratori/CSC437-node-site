@@ -1,0 +1,23 @@
+{
+  "name": "csc437-node-site",
+  "version": "1.0.0",
+  "description": "personal website for csc 437",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -p 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meiShiratori/CSC437-node-site.git"
+  },
+  "author": "Mei Shiratori",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meiShiratori/CSC437-node-site/issues"
+  },
+  "homepage": "https://github.com/meiShiratori/CSC437-node-site#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}

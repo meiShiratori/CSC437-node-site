@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stupid shopping site</title>
+  <link rel="stylesheet" href="shopping.css">
+  <script type="module" src="shopping.mjs"></script>
+</head>
+<body>
+  <header>
+    <h1>Stupid Shopping Site</h1>
+    <form class="searchbar" role="search" aria-label="Product search">
+      <label class="sr-only" for="search">Search</label>
+      <input id="search" placeholder="Search our stupid products" />
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main>
+    <section>
+      <h2>Filters</h2>
+      <div class="filters">
+        <label for="minPrice">Min price ($)</label>
+        <input id="minPrice" type="number" min="0" />
+        <label for="maxPrice">Max price ($)</label>
+        <input id="maxPrice" type="number" min="1" />
+      </div>
+    </section>
+
+    <section class="product-list">
+      <h2>Search results</h2>
+    </section>
+
+    <section class="cart">
+      <h2>Cart</h2>
+      <div class="cart-items"></div>
+      <button class="buy-button">Check out</button>
+    </section>
+  </main>
+</body>
+</html>
